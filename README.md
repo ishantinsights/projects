@@ -1,31 +1,44 @@
-About NETFLIX
+This repository contains two projects aimed at providing data-driven insights for different business scenarios. 
 
-Netflix is one of the most popular media and video streaming platforms. They have over 10000 movies or tv shows available on their platform, as of mid-2021, they have over 222M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc.
+## Customer Profiling for Fitness Equipment Brand
 
-Business Problem
+### Problem Statement
+The market research team of the organization wants to identify the characteristics of the target audience for each type of treadmill to provide a better recommendation of the treadmills to the new customers.
 
-Analyze the data and generate insights that could help Netflix ijn deciding which type of shows/movies to produce and how they can grow the business in different countries
+### Approach
+- Conducted extensive exploratory data analysis (EDA) using Python libraries Pandas to manipulate and perform EDA to understand customer demographics and behavior.
+- Utilized Matplotlib/Seaborn to visualize the findings and conditional probability to identify factors influencing the purchase of different treadmill models.
 
-The dataset provided to you consists of a list of all the TV shows/movies available on Netflix:
+### Outcome
+- Discovered that the probability of male customers buying the product is 58% and that of female customers is 42%.
+- Identified that 62% of the customers are in the age bracket 20-29 years and prefer buying entry-level treadmill (budget-friendly).
+- Observed that 60% of the customers are couples and they prefer buying entry-level treadmill (budget-friendly).
+- Discovered that 75% of customers in the high-income bracket prefer advance-level treadmill and low-income bracket prefer entry-level treadmill.
 
-Show_id: Unique ID for every Movie / Tv Show
+### Tech stack
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
 
-Type: Identifier - A Movie or TV Show
+## OTT Platform Content Strategy Analysis
 
-Title: Title of the Movie / Tv Show
+### Problem Statement
+Analyze the data and generate insights that could help the OTT platform in deciding which type of shows/movies to produce and how they can grow the business in different countries.
 
-Director: Director of the Movie
+### Approach
+- Conducted extensive exploratory data analysis (EDA) using Python libraries Pandas to manipulate and transform the data (missing values treatment/nested data treatment).
 
-Cast: Actors involved in the movie/show
+### Outcome
+- Discovered that the OTT platform has 70% movies content and 30% TV shows and has added a greater number of movies in the last 10 years.
+- OTT platform produces 50% of the content in the U.S, India, and U.K.
+- Indians prefer long-duration movies (~120mins) as compared to the U.S. Majority of movies fall within 90 -120 mins.
+- Most preferred genre for Indians is Dramas, International Movies, and Comedies.
+- Best months to add movies are towards the year-end i.e. Oct, Nov, Dec.
 
-Country: Country where the movie/show was produced
+### Tech stack
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
 
-Date_added: Date it was added on Netflix
-
-Release_year: Actual Release year of the movie/show
-
-Rating: TV Rating of the movie/show
-
-Duration: Total Duration - in minutes or number of seasons
-
-Listed_in: Genre
